@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'PanPizza';
+    src: url('panpizza.ttf') format('truetype');
+}
+
+body
+{
+  background-image: url("images/pizza.jpg");
+  font-family: 'PanPizza', 'Arial', 'sherif';
+}
+
+h1
+{
+  text-align: center;
+  font-size: 4em;
+  text-align: center;
+}
+
+h2
+{
+  color: blue;
+  font-size: 3em;
+}
+
+p,ul
+{
+  font-size: 2em;
+}
+
+section
+{
+
+  padding: 10px;
+}
+
+#informations
+{
+  display: flex;
+}
+
+#lisere
+{
+  background-color: blue;
+  float: left;
+  border-radius: 10px;
+  width: 5%;
+  height: 600px;
+}
+
+.portrait
+{
+  float : right;
+  border: groove;
+  box-shadow: 3px 3px 3px black;
+  border-color: blue;
+}
+
+.description
+{
+  text-align: center;
+}
+
+.lisere
+{
+  float: left;
+}
